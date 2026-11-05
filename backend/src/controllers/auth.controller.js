@@ -2,7 +2,7 @@ import User from '../models/user.model.js';
 import { cookieOptions } from '../utils/cookieOptions.js';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
-import transporter from '../configs/nodemailer.js';
+import transporter from '../configs/nodeMailer.js';
 import { EMAIL_VERIFY_TEMPLATE, PASSWORD_RESET_TEMPLATE } from '../configs/emailTemplates.js';
 import { oauth2client } from '../configs/googleConfig.js';
 import axios from 'axios';
