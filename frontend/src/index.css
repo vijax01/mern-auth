@@ -1,0 +1,13 @@
+/* if we want to apply google fonts in our react , then we need to put its @import url('link') above the tailwindcss import statement
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+*/
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
